@@ -1,0 +1,236 @@
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('fonts/Proxima\ Nova\ Font.otf');
+    /* font-weight: 100; */
+    /* font-style: normal; */
+}
+*{
+    font-family: proxima-nova, sans-serif !important;
+}
+
+
+*{
+    font-family: proxima-nova, sans-serif !important;
+/* font-style: normal !important; */
+/* font-weight: 100 !important; */
+/* font-size: 1vw !important; */
+}
+
+/* * {
+    flex-wrap: wrap !important;
+} */
+body, header, footer, main, nav, section{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.bg-header-yollow{
+    background-color: #feee00 !important;
+}
+ol, ul {
+    list-style: none !important;
+}
+
+/* blockquote, q {
+    quotes: none;
+} */
+
+/* blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+} */
+
+/* table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} */
+
+
+/* html {
+    font-size: 1vw ;
+} */
+
+
+
+a {
+    text-decoration: none;
+    cursor: pointer !important;
+    color: inherit ;
+}
+.product-font{
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-family: proxima-nova, sans-serif !important;
+    font-size: 1vw !important;
+    font-style: normal !important;
+    /* font color */
+    color: #202022 !important;
+    line-height: 15px !important;
+    
+
+}
+
+ /* @media only screen and (min-width: 992px) {
+    input, textarea, select  {
+        font-size: 1rem;
+    }
+} */
+
+/* input ::-ms-clear {
+  display: none;
+} */
+
+/* button {
+    background-color: transparent;
+    cursor: pointer !important;
+}
+
+button[disabled] {
+  cursor: default ;
+} */
+
+/* * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}  */
+
+
+/* Login form */
+
+/* Categories Carsole */
+
+/* Product card style */
+.product-style{
+color:#ffffff; background-color: #39a70a; width: 5.1rem; height: 2rem;
+}
+.filter-gray{
+      filter: invert(2%) sepia(0%) saturate(310%) hue-rotate(10deg) brightness(100%) contrast(100%);
+}
+.filter-white{
+filter: invert(100%) sepia(48%) saturate(4%) hue-rotate(115deg) brightness(112%) contrast(100%);
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0px;
+    font: bold;
+}
+  ol, ul {
+    padding-left: 0px;
+  }
+  .element {
+    padding-left: 0px;
+  }
+  a.btn{
+    padding-left: 0px;
+    margin-left: -15px;
+  }
+/* Nav1-mostafa */
+
+@media screen and (min-width:1000px) and (max-width:1100px){
+   .txtFont {     
+        font-size: 0.80em;
+        /* max-width: 70%; */
+    }
+}
+@media screen and (min-width:768px) and (max-width:1001px) {
+   .txtFont {
+        font-size: 0.9em;
+        /* max-width: 70%; */
+    }
+    
+}
+@media screen and (min-width:400px )and (max-width:767px) {
+    .txtFont {
+        font-size: 0.80em;
+        /* max-width: 70%; */
+    }
+}
+
+
+@media screen and (min-width:1021px)and (max-width:1100px){
+    .txtFont2 {     
+         font-size: 1.1em !important;
+     }
+ }
+@media screen and (min-width:1000px) and (max-width:1020px){
+    .txtFont2 {     
+         font-size: 0.8em !important;
+     }
+ }
+ @media screen and (min-width:768px) and (max-width:1001px) {
+    .txtFont2 {
+         font-size: 0.9em !important;
+     }
+     
+ }
+ @media screen and (min-width:400px )and (max-width:767px) {
+     .txtFont2 {
+         font-size: 0.8em !important;
+     }
+ }
+
+
+ /* footer */
+ @media screen and (min-width:1021px){
+    .txtFont2 {     
+         font-size: 1em !important;
+     }
+ }
+@media screen and (min-width:1000px) and (max-width:1020px){
+    .txtFont2 {     
+         font-size: 0.9em !important;
+         /* text-align: center !important;  */
+     }
+
+ }
+ @media screen and (min-width:768px) and (max-width:1001px) {
+    .txtFont2 {
+         font-size: 0.8em !important;
+         margin-top: 10% !important;
+         text-align: center;
+     }
+ }
+ @media screen and (min-width:400px )and (max-width:767px) {
+     .txtFont2 {
+         font-size: 0.7em !important;
+         text-align: center;    
+         }
+
+ }
+
+
+
+  /* Nav2-Makaruos */
+@media screen and (min-width:740px) and (max-width:1100px) {
+    .NavSize {
+        font-size: 0.5em;
+    }
+}
+
+/*nav2-mostafa */
+@media screen and (min-width:1100px) {
+    .NavFont {
+        font-size: 1em;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1010px){
+    .NavFont {
+        font-size: 0.80em;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:1000px) {
+    .NavFont {
+        font-size: 0.70em;
+    }
+}
+
+@media screen and (min-width:400px )and (max-width:750px) {
+    .NavFont {
+        font-size: 0.90em;
+    }
+}
